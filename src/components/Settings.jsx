@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Settings = () => {
   return (
     <>
-    <main className='bg-white w-full h-full md:max-w-[414px] md:mx-auto p-3'>
+    <main className='bg-white w-full md:max-w-[414px] md:mx-auto p-3'>
         <div className='flex justify-between'>
             <button><Link to="/"> 
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#379b73]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

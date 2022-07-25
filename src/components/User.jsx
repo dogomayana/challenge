@@ -5,7 +5,7 @@ import {Link}  from 'react-router-dom'
 export const User = () => {
   return (
     <>
-    <main className='bg-white w-full h-full md:max-w-[414px] md:mx-auto p-3'>
+    <main className='bg-white w-full md:max-w-[414px] md:mx-auto p-3'>
         <div className='flex justify-between'>
             <button><Link to="/"> 
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#379b73]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -34,8 +34,8 @@ export const User = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
             </div>
-            <div className='border-2 border-green-500 h-[35px] w-[35px] rounded-full absolute top-0 left-[43px]'></div>
-            <div className='border-2 border-pink-500 h-[40px] w-[40px] rounded-full absolute bottom-[70px] left-[3px]'></div>
+            <div className='border-2 border-green-500 h-[35px] w-[35px] rounded-full absolute top-0 left-[68px]'></div>
+            <div className='border-2 border-pink-500 h-[40px] w-[40px] rounded-full absolute bottom-[70px] left-[20px]'></div>
             <div className='border-2 border-purple-700 h-[25px] w-[25px] rounded-full absolute inset-x-[130px] -bottom-3'></div>
             <div className='border-2 border-gray-400 h-[40px] w-[40px] rounded-full absolute top-[220px] right-[14px]'></div>
         </div>
@@ -55,9 +55,9 @@ export const User = () => {
                 </div>
         </div>
 
-        <div className="mt-6 p-4 h-auto">
+        <div className="mt-4 p-4 h-auto mb-10">
             <p className="font-bold capitalize text-[#379b73]">Numbers of ratings &#58;</p>
-            <div className='flex bg-[#379b73] p-3 rounded-lg mt-2 justify-evenly'>
+            <div className='flex bg-[#379b73] p-3 rounded-lg mt-2 justify-evenly mb-20'>
                 <p className='px-1.5 py-auto bg-white text-[#379b73] text-sm font-bold rounded-lg'>350
                     <span className='block text-[12px] text-[#379b73]'>Rtngs</span>
                 </p>

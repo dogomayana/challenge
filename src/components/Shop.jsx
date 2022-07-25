@@ -3,7 +3,7 @@ import React from 'react'
 export const Shop = () => {
   return (
     <>
-    <header className='w-full relative h-screen bg-white'>
+    <header className='w-full relative bg-white'>
         <main className=" w-full h-[65%] block">
             <img src='/cibo.jpg' alt='man' width={"100%"} height={"100%"} className="brightness-50"/>
         </main>
@@ -78,7 +78,7 @@ export const Shop = () => {
                 </div>
             </div>
 
-            <div className='p-4 mt-[30px]'>
+            <div className='p-4 mt-[30px] mb-20'>
                 <h3 className='text-lg text-[#379b73] font-bold'>Images</h3>
                 <div className='block max-w-[320px] rounded-lg brightness-50 mt-4'>
                     <img src='/cibo2.jpg' alt='cibo' width={"100%"} height={'50px'} className="rounded-xl"/>

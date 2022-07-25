@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Aside({onClick}) {
   return (
-    <header className='bg-white w-[90%] h-full fixed z-40 top-0 left-0 translate-x-0'>
-            <nav className='bg-[#4caf50] h-auto '>
+    <header className='bg-white w-[90%] fixed z-40 top-0 left-0 translate-x-0'>
+            <nav className='bg-[#379b73] h-auto '>
             <button onClick={onClick} className="absolute top-1 right-6 text-white">&#88;</button>
                 <span className='flex w-[full] mx-auto mt-8'>
                     <div className='h-[50px] w-[50px] rounded-full bg-white'></div>
@@ -13,7 +13,7 @@ export default function Aside({onClick}) {
                     </div> 
                 </span>
             </nav>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4caf50" fillOpacity="1" d="M0,320L48,304C96,288,192,256,288,224C384,192,480,160,576,165.3C672,171,768,213,864,208C960,203,1056,149,1152,122.7C1248,96,1344,96,1392,96L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#379b73" fillOpacity="1" d="M0,320L48,304C96,288,192,256,288,224C384,192,480,160,576,165.3C672,171,768,213,864,208C960,203,1056,149,1152,122.7C1248,96,1344,96,1392,96L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
             <div className='p-4 mt-2'>
                 <ul className="asideList">
                     <li>
@@ -21,7 +21,8 @@ export default function Aside({onClick}) {
                             <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
                             </svg>
                         </span>
-                        View Profile
+                        <a href= "https://twitter.com/ti_stephen" target="_blank" rel="nonreferrer">View Profile</a>
+                        
                     </li>
                     <li>
                         <span><svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -67,7 +68,7 @@ export default function Aside({onClick}) {
                     </li>
                 </ul>
             </div>
-            <button onClick={onClick} className="absolute bottom-1 right-2 text-white"><svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-[#4caf50]" viewBox="0 0 20 20" fill="currentColor">
+            <button onClick={onClick} className="mb-4 absolute bottom-1 right-2 text-white"><svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-[#379b73]" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                 </svg>
             </button>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function BasketBanner() {
   return (
     <>
-    <section className="w-full h-screen p-3 relative bg-yellow-300">
+    <section className="w-full p-3 relative bg-yellow-300">
         <div className='bg-yellow-300 absolute top-[25%] translate-x-[12%] flex justify-items-center w-3/4 h-1/3'>
             <div className='my-auto mx-auto'>
                 <h1 className='p-2 flex'>
