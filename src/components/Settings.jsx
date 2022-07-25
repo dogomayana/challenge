@@ -120,7 +120,7 @@ export const Settings = () => {
             
         </div>
 
-        <div className='w-full mt-8  p-3'>
+        <div className='w-full mt-8  p-3 mb-12'>
         <p className='text-center p-3'>
                 <span className='inline-block text-[#379b73]'>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
